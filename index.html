@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Umair Javaid Manj | Spinal Pain Research</title>
+<meta name="description" content="Umair Javaid Manj: segmental EEG responses in chronic low back pain, protocol, pilot results and publications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #F8F6F0; --surface: #FFFFFF; --ink: #1C1F23; --muted: #5B6168; --line: #E3DFD5;
+  --pain: #C8372D; --calm: #2563A8; --accent: #004F90;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15171A; --surface: #1E2125; --ink: #ECEAE4; --muted: #A3A9B0; --line: #2E3237;
+    --pain: #EF6A5F; --calm: #6AA6E8; --accent: #7DB5EE;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15171A; --surface: #1E2125; --ink: #ECEAE4; --muted: #A3A9B0; --line: #2E3237;
+  --pain: #EF6A5F; --calm: #6AA6E8; --accent: #7DB5EE;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 "Source Sans 3", system-ui, sans-serif; }
+a { color: var(--accent); }
+.wrap { max-width: 980px; margin: 0 auto; padding: 0 16px; }
+header.top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+header.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; height: 56px; }
+header.top strong { font-size: 16px; }
+nav { display: flex; gap: 18px; font-size: 15px; }
+nav a { color: var(--muted); text-decoration: none; }
+nav a:hover { color: var(--ink); }
+.btn { display: inline-block; padding: 8px 16px; border-radius: 999px; background: var(--accent); color: var(--bg); text-decoration: none; font-weight: 600; font-size: 15px; }
+.btn.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+.hero { padding: 64px 0 28px; }
+.eyebrow { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
+h1 { font: 600 clamp(32px, 5vw, 50px)/1.1 "Source Serif 4", Georgia, serif; margin: 0 0 16px; }
+h2 { font: 600 30px/1.2 "Source Serif 4", Georgia, serif; margin: 0 0 14px; }
+h3 { font-size: 18px; margin: 0 0 6px; }
+.lede { font-size: 20px; color: var(--muted); max-width: 680px; margin: 0 0 24px; }
+.actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.video { margin: 8px 0 8px; border-radius: 14px; overflow: hidden; border: 1px solid var(--line); background: #000; }
+.video video { display: block; width: 100%; height: auto; }
+.caption { font-size: 14px; color: var(--muted); margin: 8px 0 0; }
+section { padding: 48px 0; border-top: 1px solid var(--line); }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
+.card p { margin: 0; color: var(--muted); font-size: 16px; }
+.num { font: 600 28px/1 "Source Serif 4", Georgia, serif; margin-bottom: 6px; }
+.pain { color: var(--pain); } .calm { color: var(--calm); }
+ol.steps { padding-left: 22px; margin: 0; }
+ol.steps li { margin-bottom: 10px; }
+.two { display: grid; gap: 28px; grid-template-columns: 1.1fr .9fr; align-items: start; }
+@media (max-width: 760px) { .two { grid-template-columns: 1fr; } nav { display: none; } }
+.pubs { list-style: none; padding: 0; margin: 0; }
+.pubs li { padding: 14px 0; border-bottom: 1px solid var(--line); }
+.pubs .venue { color: var(--muted); font-size: 15px; }
+.tag { display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); margin-left: 6px; }
+.note { border-left: 3px solid var(--pain); padding: 4px 0 4px 14px; color: var(--muted); }
+footer { padding: 36px 0 60px; border-top: 1px solid var(--line); color: var(--muted); font-size: 15px; }
+footer .links { display: flex; flex-wrap: wrap; gap: 18px; margin-top: 8px; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <strong>Umair Javaid Manj</strong>
+    <nav>
+      <a href="#question">Question</a>
+      <a href="#protocol">Protocol</a>
+      <a href="#pilot">Pilot</a>
+      <a href="#publications">Publications</a>
+      <a href="#about">About</a>
+    </nav>
+    <a class="btn" href="Umair_Manj_CV.pdf">CV</a>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="hero">
+    <p class="eyebrow">Spinal pain · EEG · Machine learning</p>
+    <h1>Is a painful spinal segment processed differently by the brain?</h1>
+    <p class="lede">I study chronic low back pain by vibrating the painful segment and a healthy segment of the same person and comparing the cortical EEG response between them. The aim is a biomarker that rests on a mechanism.</p>
+    <div class="actions">
+      <a class="btn" href="#protocol">See the protocol</a>
+      <a class="btn ghost" href="Umair_Manj_CV.pdf">Download CV</a>
+    </div>
+  </div>
+
+  <div class="video">
+    <video controls playsinline muted preload="metadata" poster="poster.jpg">
+      <source src="protocol.mp4" type="video/mp4">
+      Your browser cannot play this video. <a href="protocol.mp4">Download it</a>.
+    </video>
+  </div>
+  <p class="caption">The planned protocol in two minutes: participant setup, tactor placement over the paraspinal muscles, and the expected EEG contrast. The final panel shows the hypothesis, not measured data.</p>
+
+  <section id="question">
+    <div class="two">
+      <div>
+        <h2>The question</h2>
+        <p>Earlier EEG studies found larger cortical responses to stimulation of the low back in people with chronic low back pain than in people without it (Clauwaert et al., 2024; Jacobs et al., 2016). Dörig et al. (2026) found no group difference.</p>
+        <p>All of these compare groups of people. I compare segments within one person: the segment that hurts against one that does not. If the painful segment is amplified, that difference should show at the sensory cortex, with each participant as their own control.</p>
+      </div>
+      <div class="grid">
+        <div class="card"><div class="num pain">L3</div><p>Painful segment, the level stimulated in the closest EEG precedent (Clauwaert et al., 2019, 2024).</p></div>
+        <div class="card"><div class="num calm">T7</div><p>Healthy segment, chosen well clear of the low back.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="protocol">
+    <h2>Protocol</h2>
+    <div class="two">
+      <ol class="steps">
+        <li>The participant lies prone on a plinth with an EEG cap in place.</li>
+        <li>The painful segment and a healthy segment are marked on the skin.</li>
+        <li>Tactor pairs sit 3 cm either side of the midline at each marked level, with a further pair on the calf.</li>
+        <li>The painful pair and the healthy pair vibrate in turn.</li>
+        <li>The cortical response to each is recorded over the sensory cortex and compared within the person.</li>
+      </ol>
+      <div class="card">
+        <h3>Why within person</h3>
+        <p>Group comparisons mix pain with everything else that differs between people. Comparing two segments of one back removes most of that, and none of the studies above test this contrast directly.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pilot">
+    <h2>Pilot 1: what the data said</h2>
+    <p>One participant, 75 tactor placements, 73 kept. I report the result as it came out, including the part I had to withdraw.</p>
+    <div class="grid">
+      <div class="card"><div class="num">92 to 99%</div><h3>Withdrawn</h3><p>My first pass decoded vibration on versus off at this accuracy. The hold window was 8.5 s against 3 s comparison windows, and the shorter windows biased the log power estimate. Duration matched, the effect was zero. The decoder was reading window length.</p></div>
+      <div class="card"><div class="num">1.39</div><h3>No steady state response</h3><p>Highest signal to noise ratio over the posterior central electrodes, against a feasibility criterion of 2.0. The vibrator left no trace in the EEG at the frequency used.</p></div>
+      <div class="card"><div class="num">3</div><h3>Fixes for the next recording</h3><p>Measure the drive frequency before the session with an accelerometer, choose a frequency the scalp can follow, and write the trigger into the EEG file.</p></div>
+    </div>
+    <p class="note" style="margin-top:20px">Until those three hold, the level question cannot be asked. The per level figures are kept so the null result can be checked by eye.</p>
+  </section>
+
+  <section id="publications">
+    <h2>Related publications</h2>
+    <ul class="pubs">
+      <li>Akhter, M. N., Ali, H., Niazi, I. K., <strong>Manj, U. J.</strong>, &amp; Taylor, D. (2026). Application of machine learning techniques in the measurement of ground reaction force (GRF) waveforms using inertial measurement unit (IMU) sensors: a systematic literature review. <span class="venue"><em>Medical Engineering &amp; Physics</em>. <a href="https://doi.org/10.1088/1873-4030/aeae3c">doi</a></span></li>
+      <li><strong>Manj, U. J.</strong>, Rizvi, S. D. Q., Niazi, I. K., Akhter, M. N., &amp; Ali, H. Gated feature fusion and age confounding in plantar thermography for diabetes screening. <span class="venue"><em>Biomedical Physics &amp; Engineering Express</em></span><span class="tag">under review</span></li>
+      <li><strong>Manj, U. J.</strong>, Qamar, D., Rashid, M. A., Perwaiz, N., &amp; Niazi, I. K. Speaker leakage and subject level accuracy in voice biomarkers for Parkinson's disease. <span class="venue"><em>Machine Learning: Health</em></span><span class="tag">under review</span></li>
+      <li>Akhter, M. N., <strong>Manj, U. J.</strong>, Ali, H., Niazi, I. K., &amp; Taylor, D. Deep learning-based kinetics and center of pressure estimation during sit-to-walk transitions from a single sacrum-mounted IMU. <span class="venue"><em>IEEE Transactions on Biomedical Engineering</em></span><span class="tag">under review</span></li>
+      <li>Akhter, M. N., Ali, H., Niazi, I. K., <strong>Manj, U. J.</strong>, &amp; Taylor, D. Predicting ground reaction force during sit to walk: towards kinetically instrumenting the Timed Up and Go test. <span class="venue"><em>Medical &amp; Biological Engineering &amp; Computing</em></span><span class="tag">under review</span></li>
+    </ul>
+  </section>
+
+  <section id="about">
+    <div class="two">
+      <div>
+        <h2>About</h2>
+        <p>I am a doctoral researcher in Health and Artificial Intelligence at Auckland University of Technology, building an AI based biomarker for chronic low back pain. I also collect and analyse study data at the Centre for Chiropractic Research, New Zealand College of Chiropractic.</p>
+        <p>My training is in engineering: a BE in Computer Engineering and an MS in Computational Science and Engineering from NUST, Islamabad. Most of my papers deal with one problem: accuracy that looks high because of how the data were split or confounded. I check the evaluation before I report a number.</p>
+      </div>
+      <div class="card">
+        <h3>Methods</h3>
+        <p>EEG and IMU signal analysis · vibrotactile stimulation · spectral and time frequency analysis · Python, PyTorch, scikit-learn · subject level evaluation, leakage and confounding checks</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    Umair Javaid Manj · Auckland, New Zealand
+    <div class="links">
+      <a href="mailto:umairjavaidmanj@gmail.com">umairjavaidmanj@gmail.com</a>
+      <a href="https://orcid.org/0009-0008-7085-3662">ORCID 0009-0008-7085-3662</a>
+      <a href="https://linkedin.com/in/umairjm">LinkedIn</a>
+      <a href="Umair_Manj_CV.pdf">CV (PDF)</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
