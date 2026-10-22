@@ -27,7 +27,7 @@ export const experience = [
     date: "Oct 2025 to Present",
     points: [
       "Developing an AI based biomarker of chronic low back pain from cortical responses to paraspinal stimulation.",
-      "Adapted the Zurich paraspinal vibration fMRI paradigm (Cole et al., 2022; Dörig et al., 2026) to EEG, comparing painful and healthy spinal segments within the same person.",
+      "Extending fMRI mapping of the back (Cole et al., 2022; Dörig et al., 2026) into the EEG dimension, measuring the timing and oscillatory dynamics fMRI cannot resolve, and comparing painful with healthy spinal segments within the same person.",
       "Designing a case control EEG study combining source imaging, representational similarity analysis and subject level machine learning.",
       "Led the first pilot and identified an analysis artefact behind an apparent decoding effect.",
     ],
@@ -62,18 +62,8 @@ export const experience = [
 
 export const education = [
   { degree: "PhD", org: "Auckland University of Technology, Health & Artificial Intelligence, Auckland, New Zealand", date: "Oct 2025 to Present" },
-  {
-    degree: "MS",
-    org: "National University of Sciences & Technology (NUST), Computational Science & Engineering, Islamabad",
-    date: "2017 to 2021",
-    note: "Thesis: energy optimisation in data centres using fuzzy inference systems (~30% cost reduction).",
-  },
-  {
-    degree: "BE",
-    org: "National University of Sciences & Technology (NUST), Computer Engineering, Islamabad",
-    date: "2012 to 2016",
-    note: "Thesis: NATO narrowband waveform on a software defined radio (digital signal processing, convolutional encoding).",
-  },
+  { degree: "MS", org: "NUST, Computational Science & Engineering, Islamabad", date: "2017 to 2021" },
+  { degree: "BE", org: "NUST, Computer Engineering, Islamabad", date: "2012 to 2016" },
 ];
 
 // `cite` is the text before the italic venue, `after` the text after it.
