@@ -9,7 +9,6 @@ export const profile = {
   email: "umairjavaidmanj@gmail.com",
   phone: "+64 20 4483186",
   orcid: "https://orcid.org/0009-0008-7085-3662",
-  linkedin: "https://linkedin.com/in/umairjm",
   cv: asset("Umair_Manj_CV.pdf"),
 };
 

@@ -32,9 +32,7 @@ export default function Home() {
           </motion.h1>
           <Stagger className="profiles" gap={0.06}>
             <StaggerItem as="span"><Link className="pill" to="/publications">View publications</Link></StaggerItem>
-            <StaggerItem as="span"><a className="pill" href={profile.orcid} target="_blank" rel="noopener">ORCID</a></StaggerItem>
-            <StaggerItem as="span"><a className="pill" href={profile.linkedin} target="_blank" rel="noopener">LinkedIn</a></StaggerItem>
-          </Stagger>
+            <StaggerItem as="span"><a className="pill" href={profile.orcid} target="_blank" rel="noopener">ORCID</a></StaggerItem>          </Stagger>
         </div>
         <motion.div
           className="hero-portrait"
