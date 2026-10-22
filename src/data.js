@@ -27,7 +27,7 @@ export const experience = [
     date: "Oct 2025 to Present",
     points: [
       "Developing an AI based biomarker of chronic low back pain from cortical responses to paraspinal stimulation.",
-      "Extending fMRI mapping of the back (Cole et al., 2022; Dörig et al., 2026) into the EEG dimension, measuring the timing and oscillatory dynamics fMRI cannot resolve, and comparing painful with healthy spinal segments within the same person.",
+      "Extending fMRI mapping of the back (Cole et al., 2022; Dörig et al., 2026) into the EEG dimension, adding millisecond timing and oscillatory dynamics, and comparing painful with healthy spinal segments within the same person.",
       "Designing a case control EEG study combining source imaging, representational similarity analysis and subject level machine learning.",
       "Led the first pilot and identified an analysis artefact behind an apparent decoding effect.",
     ],
