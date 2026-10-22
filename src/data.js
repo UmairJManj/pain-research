@@ -44,10 +44,16 @@ export const experience = [
     ],
   },
   {
+    role: "Program Manager",
+    org: "NUST, Islamabad",
+    date: "Sept 2024 to Oct 2025",
+    points: ["Led a national AI training program."],
+  },
+  {
     role: "Instructor",
     org: "NUST, Islamabad",
     date: "May 2023 to July 2024",
-    points: ["Supervised 18 student term projects; awarded Best Instructor."],
+    points: ["Supervised 18 student AI projects; awarded Best Instructor."],
   },
   {
     role: "Research Associate",
