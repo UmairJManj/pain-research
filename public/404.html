@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting</title>
+    <script>
+      // SPA fallback for GitHub Pages. Store the requested path and bounce to
+      // the app root under /pain-research/, where index.html restores it.
+      (function () {
+        sessionStorage.redirect = location.href;
+        location.replace(location.origin + "/pain-research/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
