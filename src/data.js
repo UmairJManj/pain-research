@@ -15,9 +15,10 @@ export const profile = {
 export const skills = {
   "Neurophysiology & Signals": ["EEG preprocessing (ICA, ASR, GEDAI)", "ERP and time frequency analysis", "source localisation", "functional connectivity (wPLI, dPLI) and graph theory", "hyperscanning", "IMU analysis", "vibrotactile stimulation"],
   "EEG Toolboxes": ["MNE-Python", "autoreject", "EEGLAB (ICLabel, ROIconnect)", "FieldTrip", "BrainNet Viewer"],
-  "Machine Learning": ["PyTorch", "scikit-learn", "SHAP", "subject level evaluation", "leakage and confounding checks"],
-  "Statistics": ["probability and sampling", "confidence intervals", "hypothesis testing", "linear mixed models (lme4, lmerTest, emmeans)", "cluster permutation tests", "power analysis (G*Power)"],
-  "Programming": ["Python (NumPy, SciPy, pandas, NetworkX)", "R", "MATLAB", "C++"],
+  "Machine Learning": ["CNN transfer learning (DenseNet, ResNet, ConvNeXt)", "multi backbone feature fusion with gating and squeeze and excitation", "TabNet", "TabPFN", "transformers and graph neural networks", "gradient boosting (XGBoost, LightGBM, CatBoost)", "SVM", "random forests", "regularised logistic regression", "stacking ensembles"],
+  "Model Evaluation": ["nested and subject grouped cross validation", "leave one subject out", "leakage diagnostics", "confounder control", "Bayesian optimisation (Optuna, Gaussian processes) and particle swarm optimisation", "calibration (ECE, Brier)", "explainability (SHAP, LIME)"],
+  "Statistics": ["hypothesis testing (exact McNemar, Wilcoxon signed rank) with Holm correction", "cluster bootstrap and Clopper-Pearson confidence intervals", "covariate adjusted AUC", "permutation tests", "linear mixed models (lme4, lmerTest, emmeans)", "cluster based permutation for EEG", "power analysis (G*Power)"],
+  "Programming": ["Python (PyTorch, timm, scikit-learn, NumPy, SciPy, pandas, NetworkX)", "R", "MATLAB", "C++", "HPC with Slurm"],
   "Research Practice": ["Participant data governance", "systematic review", "scientific writing"],
 };
 
