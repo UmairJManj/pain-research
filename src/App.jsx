@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import TopBar from "./components/TopBar.jsx";
 import Home from "./pages/Home.jsx";
-import Research from "./pages/Research.jsx";
+import Publications from "./pages/Publications.jsx";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -21,7 +21,7 @@ export default function App() {
         <TopBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/research" element={<Research />} />
+          <Route path="/publications" element={<Publications />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </main>
