@@ -13,9 +13,12 @@ export const profile = {
 };
 
 export const skills = {
-  "Neurophysiology & Signals": ["EEG and IMU analysis", "source localisation", "functional connectivity and graph theory", "hyperscanning", "vibrotactile stimulation"],
-  "Machine Learning & Statistics": ["subject level evaluation", "leakage and confounding checks", "SHAP", "linear mixed models", "cluster permutation tests", "G*Power"],
-  "Programming": ["Python (MNE, PyTorch, scikit-learn)", "R", "MATLAB (EEGLAB)", "C++"],
+  "Neurophysiology & Signals": ["EEG preprocessing (ICA, ASR, GEDAI)", "ERP and time frequency analysis", "source localisation", "functional connectivity (wPLI, dPLI) and graph theory", "hyperscanning", "IMU analysis", "vibrotactile stimulation"],
+  "EEG Toolboxes": ["MNE-Python", "autoreject", "EEGLAB (ICLabel, ROIconnect)", "FieldTrip", "BrainNet Viewer"],
+  "Machine Learning": ["PyTorch", "scikit-learn", "SHAP", "subject level evaluation", "leakage and confounding checks"],
+  "Statistics": ["linear mixed models (lme4, lmerTest, emmeans)", "cluster permutation tests", "power analysis (G*Power)"],
+  "Programming": ["Python (NumPy, SciPy, pandas, NetworkX)", "R", "MATLAB", "C++"],
+  "Training": ["Statistics Foundations 1 to 3 (LinkedIn Learning)"],
   "Research Practice": ["Participant data governance", "systematic review", "scientific writing"],
 };
 
