@@ -45,19 +45,19 @@ export const experience = [
   },
   {
     role: "Program Manager",
-    org: "NUST, Islamabad",
+    org: "National University of Sciences and Technology, Islamabad",
     date: "Sept 2024 to Oct 2025",
     points: ["Led a national AI training program."],
   },
   {
     role: "Instructor",
-    org: "NUST, Islamabad",
+    org: "AI Lounge, Islamabad",
     date: "May 2023 to July 2024",
     points: ["Supervised 18 student AI projects; awarded Best Instructor."],
   },
   {
     role: "Research Associate",
-    org: "COGNET Lab, SEECS, NUST, Islamabad",
+    org: "COGNET Lab, SEECS, National University of Sciences and Technology, Islamabad",
     date: "Aug 2021 to Apr 2023",
     points: [
       "Researched the robustness of deep learning and computer vision models to adversarial inputs.",
@@ -68,8 +68,8 @@ export const experience = [
 
 export const education = [
   { degree: "PhD", org: "Auckland University of Technology, Health & Artificial Intelligence, Auckland, New Zealand", date: "Oct 2025 to Present" },
-  { degree: "MS", org: "NUST, Computational Science & Engineering, Islamabad", date: "2017 to 2021" },
-  { degree: "BE", org: "NUST, Computer Engineering, Islamabad", date: "2012 to 2016" },
+  { degree: "MS", org: "National University of Sciences and Technology, Computational Science & Engineering, Islamabad", date: "2017 to 2021" },
+  { degree: "BE", org: "National University of Sciences and Technology, Computer Engineering, Islamabad", date: "2012 to 2016" },
 ];
 
 // `cite` is the text before the italic venue, `after` the text after it.
