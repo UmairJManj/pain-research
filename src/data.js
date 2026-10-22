@@ -86,6 +86,18 @@ export const publications = [
     doi: "https://doi.org/10.1109/icodt269104.2025.11360691",
   },
   {
+    cite: "Haq, M. I. U., Ahmad, Z., Manj, U. J., Akhter, M. N., Arfeen, Z. A., & Qamar, S. D. (2026). Bio-inspired soft robotic gripper with variable stiffness using magneto-rheological control.",
+    venue: "ICRAI",
+    after: ", pp. 1 to 6.",
+    doi: "https://doi.org/10.1109/icrai70912.2026.11551972",
+  },
+  {
+    cite: "Haq, M. I. U., Manj, U. J., Paracha, S. Q., Imam, Y., Rizvi, D. Q., & Farooqi, A. R. (2026). Neuro-symbolic AI-driven secure communication framework for autonomous cyber-physical systems.",
+    venue: "APAN 2026",
+    after: ", pp. 1 to 6.",
+    doi: "https://doi.org/10.1109/apan70967.2026.11709696",
+  },
+  {
     cite: "Akhter, M. N., Manj, U. J., Ali, H., Niazi, I. K., & Taylor, D. Deep learning-based kinetics and center of pressure estimation during sit-to-walk transitions from a single sacrum-mounted IMU.",
     venue: "IEEE Transactions on Biomedical Engineering",
     after: " (under review).",
