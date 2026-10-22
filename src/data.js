@@ -14,9 +14,9 @@ export const profile = {
 };
 
 export const skills = {
-  "Neurophysiology & Signals": ["EEG and IMU signal analysis", "vibrotactile stimulation protocols", "spectral and time frequency analysis"],
-  "Machine Learning & Statistics": ["PyTorch", "scikit-learn", "subject level evaluation", "leakage and confounding checks", "SHAP", "G*Power"],
-  "Programming Languages": ["Python", "C++", "Bash", "PowerShell"],
+  "Neurophysiology & Signals": ["EEG and IMU analysis", "source localisation", "functional connectivity and graph theory", "hyperscanning", "vibrotactile stimulation"],
+  "Machine Learning & Statistics": ["subject level evaluation", "leakage and confounding checks", "SHAP", "linear mixed models", "cluster permutation tests", "G*Power"],
+  "Programming": ["Python (MNE, PyTorch, scikit-learn)", "R", "MATLAB (EEGLAB)", "C++"],
   "Research Practice": ["Participant data governance", "systematic review", "scientific writing"],
 };
 
@@ -40,33 +40,23 @@ export const experience = [
       "Analyse EEG hyperscanning of chiropractor and patient: inter brain and within brain connectivity (wPLI, dPLI) and source level network analysis.",
       "Apply graph theory to resting state EEG networks in a randomised chiropractic trial of adults and children, with linear mixed models.",
       "Model longitudinal clinical outcomes (immune response, DASS-21, PROMIS-25) with mixed effects models in R.",
-      "Review the AI tools and model training pipelines used in research.",
       "Manage private participant data and consent records.",
     ],
   },
   {
-    role: "Program Manager",
-    org: "Coding, Robotics & AI Learning Project, NUST, Islamabad",
-    date: "Sept 2024 to Oct 2025",
-    points: ["Led a national AI training program, coordinating 80 instructors."],
-  },
-  {
     role: "Instructor",
-    org: "HISDP, AI Lounge & Murabbi, NUST, Islamabad",
+    org: "NUST, Islamabad",
     date: "May 2023 to July 2024",
     points: ["Supervised 18 student term projects; awarded Best Instructor."],
   },
   {
     role: "Research Associate",
     org: "COGNET Lab, SEECS, NUST, Islamabad",
-    date: "Dec 2022 to Apr 2023",
-    points: ["Researched the robustness of deep learning models to adversarial inputs; mentored junior researchers."],
-  },
-  {
-    role: "Research Assistant",
-    org: "COGNET Lab, SEECS, NUST, Islamabad",
-    date: "Aug 2021 to Nov 2022",
-    points: ["Built computer vision models for an end to end verification system."],
+    date: "Aug 2021 to Apr 2023",
+    points: [
+      "Researched the robustness of deep learning and computer vision models to adversarial inputs.",
+      "Mentored junior research assistants (Research Assistant until Nov 2022).",
+    ],
   },
 ];
 
